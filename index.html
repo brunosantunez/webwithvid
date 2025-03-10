@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>MixeAR</title>
+    <link rel="shortcut icon" href="img/Logo_MixeAR.png">
+</head>
+
+<body>
+    
+    <main class="video-container">
+        <video muted autoplay loop>
+            <source src="img/cortado.mp4" type="video/mp4">
+            Tu navegador no soporta HTML5.
+        </video>
+
+        <img src="img/tablatop15.PNG" class="tablatop15" alt="Tabla">
+        <img src="img/Logo_MixeAR.png" class="logo-mixear" alt="Logo MixeAR">
+
+        <div class="logos">
+            <a href="https://www.instagram.com/mixearcs/" target="_blank"><img src="img/iconig.png" alt="igmixear"></a>
+            <a href="https://discord.gg/pmCsDSNuRs" target="_blank"> <img src="img/iconds.png" alt="Discord Logo"></a>
+            <a href="https://www.tiktok.com/@mixearcs" target="_blank"> <img src="img/icontiktok.png" alt="Tiktok logo"></a>
+            <a href="https://www.faceit.com/es/inv/9Ee7U7L" target="_blank"> <img src="img/iconfaceit.png" alt="faceit"> </a>
+        </div>
+        
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("discordLink").addEventListener("click", function(event) {
+                event.preventDefault();
+                window.location.href = this.href;
+            });
+        });
+    </script>
+</body>
+</html>
